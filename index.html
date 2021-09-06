@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="count.css">
+      <link rel="shortcut icon" type="image/png" href="img/heart.png"/>
+      <title>Hấp Birthday Countdown Pạt Ty </title>
+</head>
+<body>
+      <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "100234312408653");
+      chatbox.setAttribute("attribution", "biz_inbox");
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v11.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+     <div id="wrapper">
+           <h1><b>💕 Đếm ngược sinh nhật Hấp 💕</b></h1>
+
+           <div id="clock-box">
+                 <div id="clock">
+                       <date>0 NGÀY</date>
+                       <time>00:00:00</time>
+                  </div>
+            </div>
+            
+            <div id="info">
+                  <div class="one">
+                        <img src="img/ny.jpg" class="avt">
+                        <I>NGUYỄN NGỌC THẢO</i><h2> ❤ <anni> ❤ </h2>
+  			        </div>
+                  <div id="heart">
+                        
+                  </div>
+            </div>
+            
+            <div id="music">
+                  <audio loop autoplay controls>Your browser does not support the audio element.</audio>
+            </div>
+            <h1>💕 Sinh nhật là hết dịch 💕</h1>
+<p></p>
+      </div> 
+      
+      <script src="app.js"></script>
